@@ -15,7 +15,7 @@ namespace DevOpsDemoGitTest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This is your descroption page.";
 
             return View();
         }
