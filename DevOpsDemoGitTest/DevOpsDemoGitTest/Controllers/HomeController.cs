@@ -26,5 +26,13 @@ namespace DevOpsDemoGitTest.Controllers
 
             return View();
         }
+
+        //This is Product method
+        public ActionResult Products()
+        {
+            ViewBag.Message = "Your Products page.";
+
+            return View();
+        }
     }
 }
